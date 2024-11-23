@@ -1,0 +1,8 @@
+# Produção
+build
+
+# arquivos local env
+.env*.local
+
+.env
+
