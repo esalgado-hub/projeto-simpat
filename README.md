@@ -21,3 +21,30 @@ Checklist para o SIMAPT
 - [ ] - Levantamento de requisitos
 
 
+# APP Movimentação de bens da UPAT
+
+O app Movimentação de bens da UPAT abrange, cadastro de bens, cadastro de número de série, cadastro de UORGs e pode ser expandido para outros cadastros.
+Não funciona somente no celular, funciona e muito bem via navegador.
+
+## Tabelas existentes no aplicativo
+
+| Movimentacao      | Inventário         | Nº serie      | Bens               | UOROGS      |
+| :-------          | :-------           | :-------      | :-------           | :-------    |
+| id_movimentacao   | id_inventario      | id_serial     | id_bem             | uorg        |
+| data              | num_patrim         | num_serie     | siads              | Descricao   |
+| hora              | data               | data          | descricao_bem      | Localizacao | 
+| num_patrim_fub    | hora               | num_patrim    | estado_conservacao |             |
+| num_patrim_ebserh | descricao_bem      | descricao_bem |
+| num_siads         | estado_conservacao |
+| bem               | local              |
+
+Essas colunas atualmente atende praticamente toda o gerenciamento de bens do HUB, é possível gerar gráficos e até relatórios, mas ainda não conta com a 
+exportação para outros softwares, como pdf e xlxs.
+
+## Base de dados do aplicativo
+
+A base de dados foi gerada a partir da extração de dados pela planilha de extração disponibilizada pela **Ebserh SEDE** (Ebserh e SIADS) e também de planilhas de inventários anteriores.
+Os números de patrimônio da FUB foram extraídos de planilha contendo os números de patrimônio fub vinculados ao número de patrimÔnio Ebserh.
+
+
+
