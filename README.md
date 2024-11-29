@@ -1,6 +1,6 @@
 # projeto-simpat
 
-Sistema para gerenciar os bens patrimoniais.
+Sistema para gerenciar bens patrimoniais do HUB.
 
 > SIMPAT - Sistema de Gerenciamento e Movimentação Patrimoniais
 
@@ -19,6 +19,8 @@ Checklist para o SIMAPT
 
 - [ ] - Detecção do risco do atual sistema de inventário
 - [ ] - Levantamento de requisitos
+- [ ] - Gerar relatório
+- [ ] - Gerar um página para bens não localizado. Assim que o bem for encontrado sai e vai para encontrados
 
 
 # APP Movimentação de bens da UPAT
@@ -52,12 +54,14 @@ Os números de patrimônio da FUB foram extraídos de planilha contendo os núme
 
 ### Importante
 
-O aplicativo foi desenvolvido com o `APPSHEET` da Google e a fonte de dados é armazenada no `Google Sheets - Planilhas Google`. 
+O aplicativo foi desenvolvido com o `APPSHEET` do Google e a fonte de dados é armazenada no `Google Sheets - Planilhas Google`. 
 
 **AppSheet**
 > É uma plataforma de desenvolvimento de aplicativos sem código, que permite aos usuários criar e implantar aplicativos mobile e web a partir de dados armazenados em planilhas ou bancos de dados.
 
 Porém o AppSheet é uma ferramenta paga após a implantação do aplicativo, enquanto está somente em teste é grátis até 10 usuários.
+
+Agora o AppSheet faz parte do pacote `Office 365 da Microsoft` e como a Ebserh tem a licença empresarial ficou mais fácil para expandir o app.
 
 ![image](https://github.com/user-attachments/assets/01790586-66e0-48a8-bd01-6de711a7b55d)
 
