@@ -22,7 +22,6 @@ Checklist para o SIMAPT
 - [ ] - Gerar relatório
 - [ ] - Gerar um página para bens não localizado. Assim que o bem for encontrado sai e vai para encontrados
 
-
 # APP Movimentação de bens da UPAT
 
 O app Movimentação de bens da UPAT abrange, cadastro de bens, cadastro de número de série, cadastro de UORGs e pode ser expandido para outros cadastros.
@@ -34,13 +33,13 @@ Não funciona somente no celular, funciona e muito bem via navegador.
 | :-------          | :-------           | :-------      | :-------           | :-------    |
 | id_movimentacao   | id_inventario      | id_serial     | id_bem             | uorg        |
 | data              | num_patrim         | num_serie     | siads              | Descricao   |
-| hora              | data               | data          | descricao_bem      | Localizacao | 
+| hora              | data               | data          | descricao_bem      | Localizacao |
 | num_patrim_fub    | hora               | num_patrim    | estado_conservacao |             |
 | num_patrim_ebserh | descricao_bem      | descricao_bem |
 | num_siads         | estado_conservacao |
 | bem               | local              |
 
-Essas colunas atualmente atende praticamente toda o gerenciamento de bens do HUB, é possível gerar gráficos e até relatórios, mas ainda não conta com a 
+Essas colunas atualmente atende praticamente toda o gerenciamento de bens do HUB, é possível gerar gráficos e até relatórios, mas ainda não conta com a
 exportação para outros softwares, como pdf e xlxs.
 
 ## Base de dados do aplicativo
@@ -48,13 +47,9 @@ exportação para outros softwares, como pdf e xlxs.
 A base de dados foi gerada a partir da extração de dados pela planilha de extração disponibilizada pela **Ebserh SEDE** (Ebserh e SIADS) e também de planilhas de inventários anteriores.
 Os números de patrimônio da FUB foram extraídos de planilha contendo os números de patrimônio fub vinculados ao número de patrimÔnio Ebserh.
 
-
-
-
-
 ### Importante
 
-O aplicativo foi desenvolvido com o `APPSHEET` do Google e a fonte de dados é armazenada no `Google Sheets - Planilhas Google`. 
+O aplicativo foi desenvolvido com o `APPSHEET` do Google e a fonte de dados é armazenada no `Google Sheets - Planilhas Google`.
 
 **AppSheet**
 > É uma plataforma de desenvolvimento de aplicativos sem código, que permite aos usuários criar e implantar aplicativos mobile e web a partir de dados armazenados em planilhas ou bancos de dados.
@@ -68,4 +63,5 @@ Agora o AppSheet faz parte do pacote `Office 365 da Microsoft` e como a Ebserh t
 ### Lembretes
 
 - [ ] - Criar relatório de inventário
-- [ ] - Criar algo para bem baixado
+- [ ] - Criar algo para bem baixado (algum campo para baixar bem)
+- [ ] - Exportar relatório em pdf, csv e xlxs.
