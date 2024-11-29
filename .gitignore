@@ -1,10 +1,10 @@
 .vscode
-
 venv
-
+venv*
+venv-*
 .venv
-
 *.venv
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,openframeworks+visualstudio,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,openframeworks+visualstudio,python
